@@ -123,3 +123,19 @@ form textarea{
 iframe {
     width: 100%;
 }
+
+
+
+
+footer li{
+    display: inline;
+    margin-right: 10px;
+    background-position: center right;
+    
+    
+}
+
+footer li img{
+    width: 30px;
+    
+}
