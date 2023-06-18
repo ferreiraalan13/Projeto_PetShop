@@ -139,3 +139,53 @@ footer li img{
     width: 30px;
     
 }
+
+
+@media screen and (max-width: 580px) {
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        padding: 56px 0;
+    }
+
+    .fundo-verde{
+        background-color: #bdff9c;
+        width: 100%;
+    }
+
+    .flex-container .col{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    #produto .flex-container{
+        align-items: center;
+    }
+    
+    .produto{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .flex-container .col form{
+        align-items: center;
+        margin-left: 100px;
+
+    }
+
+    .flex-container .col iframe{
+        width: 500px;
+        border-radius: 20px;
+    }
+
+    .formasdepagamento{
+        margin-left: 120px;
+    }
+}
