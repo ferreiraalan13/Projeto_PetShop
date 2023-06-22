@@ -54,6 +54,7 @@ nav a:hover{
 
 .fundo-verde{
     background-color: #bdff9c;
+    width: 100%;
 }
 
 .container{
@@ -156,12 +157,19 @@ footer li img{
 
     .fundo-verde{
         background-color: #bdff9c;
-        width: 100%;
+        width: 580px;
+    }
+    header{
+        text-align: center;
+        background-image: url(../img/fundo-topo.jpg);
+        padding: 10px 0;
+        
     }
 
     .flex-container .col{
-        width: 100%;
+        width: 90%;
         text-align: center;
+        margin-left: 40px ;
     }
 
 
@@ -176,7 +184,7 @@ footer li img{
 
     .flex-container .col form{
         align-items: center;
-        margin-left: 100px;
+        margin-left: 30px;
 
     }
 
@@ -188,4 +196,45 @@ footer li img{
     .formasdepagamento{
         margin-left: 120px;
     }
+
+    
+
+    nav li{
+        flex-direction: column;
+        display: flex;
+        margin-left: 150px;
+        border: 1px solid;
+        width: 300px;
+        margin-bottom: 10px;
+        border-radius: 4px;       
+        
+    }
+
+    
+
+    #itemContato{
+        
+        margin-right: 0;
+        padding: 0;
+        background-image: url(../img/patinha-preta.png);
+        background-repeat: no-repeat;
+        padding-right: 27px;
+        margin-right: 10px;
+        
+    }
+
+    nav a:hover{
+        color: #6dd432;
+        transform: scale(1.05);
+        transition: 1s;
+    }
+
+
+    .texto-centralizado{
+        width: 500px;
+        margin-left: 10px;
+    }
+
+    
+
 }
